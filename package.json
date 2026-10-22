@@ -53,9 +53,9 @@
     "check": "run-s lint coverage build publint"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^13.0.3",
-    "@vitest/coverage-v8": "^4.1.11",
-    "@vitest/ui": "^4.1.11",
+    "@size-limit/preset-small-lib": "^14.3.0",
+    "@vitest/coverage-v8": "^5.0.5",
+    "@vitest/ui": "^5.0.5",
     "cross-env": "^10.1.0",
     "jsdom": "^30.0.1",
     "npm-run-all2": "^9.0.3",
@@ -66,8 +66,8 @@
     "rolldown": "^1.2.5",
     "rolldown-plugin-copy-files": "^0.2.0",
     "simple-git-hooks": "^2.13.1",
-    "size-limit": "^13.0.3",
-    "vitest": "^4.1.11"
+    "size-limit": "^14.3.0",
+    "vitest": "^5.0.5"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm check"
